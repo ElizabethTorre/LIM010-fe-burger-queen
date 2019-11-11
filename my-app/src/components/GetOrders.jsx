@@ -52,7 +52,7 @@ export const GetOrders = () => {
   };
 
   return (
-    <div>
+    <React.Fragment>
       <nav className="Nav">
         {/* <button className="Nav-btn" id=""><Link to="/"> Home </Link></button> */}
         <ul>
@@ -62,6 +62,6 @@ export const GetOrders = () => {
         </ul>
       </nav>
       <OrderStructure arr={orders} setOrderToReady={Ready} setOrderToDelivered={Delivered} />
-    </div>
+    </React.Fragment>
   );
 };

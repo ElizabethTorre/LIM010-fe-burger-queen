@@ -27,13 +27,16 @@ export const Waiter = () => {
   };
 
   return (
-    <div>
+    <React.Fragment>
       <Header />
-      <button className="btn-nav">
+      {/* <button className="btn-nav">
+        <Link to="/chef"> Estados de pedidos </Link>
+      </button> */}
+      {/* <main> */}
+        <main className="Flex">
+        <button className="btn-nav">
         <Link to="/chef"> Estados de pedidos </Link>
       </button>
-      <main>
-        <section className="Flex">
           <Products
             addProductAtOrder={(product) => {
               const found = selectProduct.find((p) => {
@@ -65,8 +68,8 @@ export const Waiter = () => {
               setOrder(newArray);
             }}
           />
-        </section>
-      </main>
-    </div>
+        </main>
+      {/* </main> */}
+    </React.Fragment>
   );
 };

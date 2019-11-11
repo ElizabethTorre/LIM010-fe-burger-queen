@@ -38,7 +38,7 @@ body {
     color: #09d3ac;
   }
   
-  .Flex {
+  main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;   
@@ -46,8 +46,11 @@ body {
     
       flex-direction: row;
     }
-    div:nth-child(1) {
+    .menu {
       background: $text-color;
+      h1 {
+        font-size: 24px;
+      }
       .Scroll {
         overflow: scroll;
         text-align: center;

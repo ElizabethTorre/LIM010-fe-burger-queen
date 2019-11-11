@@ -4,7 +4,7 @@ import '../css/App.css';
 
 export const OrderStructure = ({ arr, setOrderToReady, setOrderToDelivered }) => {
   return (
-    <main>
+    <React.Fragment>
       {arr.map((product) => {
         return (
           <div className="Status" key={product.id}>
@@ -73,6 +73,6 @@ export const OrderStructure = ({ arr, setOrderToReady, setOrderToDelivered }) =>
           </div>
         );
       })}
-    </main>
+    </React.Fragment>
   );
 };

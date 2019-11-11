@@ -5,9 +5,9 @@ import { Header } from '../components/Header';
 
 export const Chef = () => {
   return (
-    <div>
+    <React.Fragment>
       <Header />
       <GetOrders />
-    </div>
+    </React.Fragment>
   );
 };
