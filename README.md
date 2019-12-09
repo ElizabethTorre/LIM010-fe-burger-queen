@@ -104,15 +104,15 @@ pendientes de tu proyecto anterior.
 
 ### HTML y CSS
 
-- [ ] HTML semántico
-- [ ] CSS flexbox
-- [ ] Sass
-- [ ] Maquetación
+- [x] HTML semántico
+- [x] CSS flexbox
+- [x] Sass
+- [x] Maquetación
 
 ### Frontend Development
 
-- [ ] Componentes
-- [ ] Manejo del estado
+- [x] Componentes
+- [x] Manejo del estado
 
 ### PWA
 

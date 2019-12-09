@@ -54,7 +54,7 @@ main .menu h1 {
 main .menu .Scroll {
   overflow: scroll;
   text-align: center;
-  height: 440px;
+  height: 448px;
 }
 main .menu .Scroll div {
   width: 40%;

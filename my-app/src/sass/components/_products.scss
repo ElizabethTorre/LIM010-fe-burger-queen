@@ -46,6 +46,7 @@ body {
     
       flex-direction: row;
     }
+    
     .menu {
       background: $text-color;
       h1 {
@@ -54,7 +55,7 @@ body {
       .Scroll {
         overflow: scroll;
         text-align: center;
-        height: 440px;
+        height: 448px;
          div {
           width: 40%;
           height: 190px;
